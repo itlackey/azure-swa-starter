@@ -1,6 +1,22 @@
-# Static Site with Python Function Starter
+# Azure Static Site Starter Kit
 This starter kit uses Svelte and Eleventy to build the static site frontend. It also includes a basic example 
 of using JavaScript Managed Functions as a backend. 
+
+## Getting started
+
+You can use `degit` create a copy one of the available starter kits by running one of the commands below.
+
+```
+# Copy the latest starter kit with JS API
+npx degit itlackey/azure-swa-starter {you_dir_name}
+
+# Copy the latest starter kit with PY API
+npx degit itlackey/azure-swa-starter#py {you_dir_name}
+
+# Copy the latest starter kit with no API or Svelte components, plain old static HTML/JS/CSS
+npx degit itlackey/azure-swa-starter#basic {you_dir_name}
+
+```
 
 ## Tools
 To use the pre-configured npm scripts, you will need to install the Azure Static Website CLI tool globally.

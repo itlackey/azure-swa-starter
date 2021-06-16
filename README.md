@@ -1,6 +1,6 @@
 # Azure Static Site Starter Kit
 This starter kit uses Svelte and Eleventy to build the static site frontend. It also includes a basic example 
-of using JavaScript Managed Functions as a backend. 
+of using Python Managed Functions as a backend. 
 
 ## Getting started
 

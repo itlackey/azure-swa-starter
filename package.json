@@ -1,9 +1,7 @@
 {
-  "name": "blood-predict-web",
+  "name": "azure-swa-11ty-starter",
   "version": "1.0.0",
   "description": "",
-  "module": "dist/assets/index.mjs",
-  "main": "dist/assets/index.js",
   "scripts": {
     "start": "rollup -w -c & npx @11ty/eleventy --watch & swa start ./.dist --api api",
     "watch": "rollup -w -c & npx @11ty/eleventy --watch",

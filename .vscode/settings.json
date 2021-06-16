@@ -1,9 +1,6 @@
 {
     "azureFunctions.deploySubpath": "api",
     "azureFunctions.scmDoBuildDuringDeployment": true,
-    "azureFunctions.pythonVenv": ".venv",
-    "azureFunctions.projectLanguage": "JavaScript",
-    "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
     "files.exclude": {
         "**/.git": true,
@@ -14,7 +11,5 @@
         "**/node_modules": true,
         "**/.venv": true,
         "**/__pycache__":true
-    },
-    "azureFunctions.postDeployTask": "npm install",
-    "azureFunctions.preDeployTask": "npm prune"
+    }
 }

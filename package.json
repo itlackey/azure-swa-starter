@@ -1,0 +1,25 @@
+{
+  "name": "blood-predict-web",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/assets/index.mjs",
+  "main": "dist/assets/index.js",
+  "scripts": {
+    "start": "rollup -w -c & npx @11ty/eleventy --watch & swa start ./.dist --api api",
+    "watch": "rollup -w -c & npx @11ty/eleventy --watch",
+    "11ty": "rollup -w -c & npx @11ty/eleventy --serve",
+    "debug": "swa start ./.dist/ --api=http://localhost:7071",
+    "build": "rollup -c && npx @11ty/eleventy",
+    "clean": "rm -rf .dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@azure/static-web-apps-cli": "^0.6.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "svelte": "^3.0.0"
+  }
+}
